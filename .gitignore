@@ -1,0 +1,4 @@
+# Herdr runtime state (session data and logs change constantly)
+config/herdr/session.json
+config/herdr/*.log
+config/herdr/.plugins.lock
