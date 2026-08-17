@@ -28,6 +28,9 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
+          home-manager.extraSpecialArgs = {
+            dotfilesPath = "/home/ayan/.dotfiles";
+          };
           
           home-manager.users.ayan = {
             imports = [ ./home.nix ];
